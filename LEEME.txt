@@ -1,0 +1,10 @@
+Simulador de publicidad - Diario Libre
+
+Publicar en Cloudflare (gratis):
+1. Instala Node.js (nodejs.org).
+2. Abre una terminal en esta carpeta.
+3. Ejecuta:  npx wrangler login
+4. Ejecuta:  npx wrangler deploy
+5. Wrangler te dará una dirección tipo https://diario-libre-simulador.<tu-cuenta>.workers.dev
+
+Para actualizar: reemplaza public/index.html y vuelve a ejecutar  npx wrangler deploy
